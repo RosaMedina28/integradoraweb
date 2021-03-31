@@ -9,6 +9,8 @@ import { CarruselComponent } from './Component/carrusel/carrusel.component';
 import { NavBarComponent } from './Component/nav-bar/nav-bar.component';
 import { AdminnavComponent } from './Component/adminnav/adminnav.component';
 import { LoginComponent } from './Component/login/login.component';
+import { RegistroComponent } from './Component/registro/registro.component';
+import { Error404Component } from './Component/error404/error404.component';
 
 
 @NgModule({
@@ -18,7 +20,9 @@ import { LoginComponent } from './Component/login/login.component';
     SplashComponent,
     CarruselComponent,
     AdminnavComponent,
-    LoginComponent
+    LoginComponent,
+    RegistroComponent,
+    Error404Component
   ],
   imports: [
     BrowserModule,
