@@ -11,7 +11,7 @@ const routes: Routes = [
     {path:'navbar', component:NavBarComponent},
     {path:'carrusel', component:CarruselComponent},
     {path:'navadmin', component:AdminnavComponent},
-    {path:'login', component:LoginComponent}
+    {path:'login', component:LoginComponent, pathMatch: 'full'}
 
 ];
 
